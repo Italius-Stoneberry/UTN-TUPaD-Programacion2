@@ -9,7 +9,7 @@ class Base(ABC):
     def __init__(self) -> None:
         Base._id_counter += 1
         self.__id :int= Base._id_counter
-        self. __creado_en: datetime = datetime.now()
+        self.__creado_en: datetime = datetime.now()
         self.__eliminado: bool = False        
     
     @property
@@ -23,7 +23,7 @@ class Base(ABC):
         self.__eliminado = valor
     @property
     def creado_en(self) -> datetime:
-        return self._creado_en
+        return self.__creado_en
     
     #lineas de eq y hash
     

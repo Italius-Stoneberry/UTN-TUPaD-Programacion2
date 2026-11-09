@@ -30,7 +30,7 @@ class Usuario(Base):
     @nombre.setter
     def nombre(self, valor: str) -> None:
         if not valor.strip():
-            raise DatoInvalidoError("El nombre del producto no puede estar vacío.")
+            raise DatoInvalidoError("El nombre del usuario no puede estar vacío.")
         self.__nombre = valor.strip()
     
     @property
@@ -40,7 +40,7 @@ class Usuario(Base):
     @apellido.setter
     def apellido(self, valor: str) -> None:
         if not valor.strip():
-            raise DatoInvalidoError("El apellido del producto no puede estar vacío.")
+            raise DatoInvalidoError("El apellido del usuario no puede estar vacío.")
         self.__apellido = valor.strip()
 
     @property
@@ -50,7 +50,7 @@ class Usuario(Base):
     @mail.setter
     def mail(self, valor: str) -> None:
         if not valor.strip():
-            raise DatoInvalidoError("El mail del producto no puede estar vacío.")
+            raise DatoInvalidoError("El mail del usuario no puede estar vacío.")
         self.__mail = valor.strip()
 
     @property

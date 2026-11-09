@@ -49,8 +49,8 @@ class Producto(Base):
     
     @precio.setter
     def precio(self, valor: float) -> None:
-        if valor <= 0:
-            raise PrecioInvalidoError("El precio del producto no puede ser 0 o negativo.")
+        if valor <0:
+            raise PrecioInvalidoError("El precio del producto no puede ser  negativo.")
         self.__precio = valor
 
     @property
@@ -69,8 +69,8 @@ class Producto(Base):
     
     @stock.setter
     def stock(self, valor: int) -> None:
-        if valor <= 0:
-            raise PrecioInvalidoError("El stock del producto no puede ser 0 o negativo.")
+        if valor <0:
+            raise DatoInvalidoError("El stock del producto no puede ser  negativo.")
         self.__stock = valor
 
     @property
