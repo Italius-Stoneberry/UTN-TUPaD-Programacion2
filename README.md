@@ -1,6 +1,8 @@
 # Food Store - Sistema de Gestión de Pedidos
 
 Proyecto integrador de Programación II (UTN FRM).
+Integrantes: Italo Rocamora | Martinez Joaquin
+Link Repositorio: https://github.com/Italius-Stoneberry/UTN-TUPaD-Programacion2
 
 ## Requisitos y Ejecución
 
