@@ -44,4 +44,4 @@ python pruebas.py
 
 * **Informe del Proyecto:** Profesores en la raíz del  proyecto en formato **PDF está el informe del mismo**.
 
-* **Video Demostración:** aun no hacemos el video, estamos esperando la corrección del proyecto para poder empezar a grabar el video.
+* **Video Demostración:** https://www.youtube.com/watch?v=VhuPy40jkIw.

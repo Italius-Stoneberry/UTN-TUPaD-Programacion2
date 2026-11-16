@@ -33,7 +33,7 @@ def ejecutar_pruebas():
 
         
         print("[2] Probando creación de usuarios...")
-        usr_cliente = usr_srv.crear("Carlos", "Prueba", "carlos@test.com", "123456", "clave123", Rol.USUARIO)
+        usr_cliente = usr_srv.crear("", "Prueba", "carlos@test.com", "123456", "clave123", Rol.USUARIO)
         usr_admin = usr_srv.crear("Admin", "Prueba", "admin@test.com", "654321", "admin123", Rol.ADMIN)
         assert usr_cliente.mail == "carlos@test.com", "Fallo al validar el email del cliente creado."
         print(" ->  Usuarios creados con éxito en memoria.\n")
